@@ -78,3 +78,18 @@ Enter name of work folder: [press Enter for _work]
 ```
 
 
+## Vertical Scaling with Docker Compose
+
+Make sure to replace <YOUR-GITHUB-ORGANIZATION> and <YOUR-GITHUB-ACCESS-TOKEN> with your organization and personal access token in `docker-compose.yml` file.
+
+Follow the official installation guide to download and install Docker Compose on the droplet, and then build the image:
+
+```
+$ docker-compose build
+```
+
+Spin up two container instances:
+
+```
+$ docker-compose up --scale runner=2 -d
+```
