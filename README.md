@@ -14,7 +14,7 @@ This `Dockerfile` sets up a Docker image for a specific application. It includes
 5. Defines the command to run the application.
 
 
-# Build
+# Build and run
 
 The `ORGANIZATION` and `ACCESS_TOKEN` (GitHub personal access token) environment variables are used for requesting a runner registration token.
 
